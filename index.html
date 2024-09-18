@@ -1,1 +1,338 @@
-index.html
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" type="text/css" href="./index.css">
+
+	<title>Educ Portal</title>
+</head>
+<body>
+
+	<!-- Navigation Menu -->
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+	    <div class="container-fluid">
+	        <a class="navbar-brand" href="#home">Educ Portal</a>
+	        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	            <span class="navbar-toggler-icon"></span>
+	        </button>
+	        <div class="collapse navbar-collapse" id="navbarNav">
+	            <ul class="navbar-nav ms-auto">
+	                <li class="nav-item">
+	                    <a class="nav-link" href="#home">Home</a>
+	                </li>
+	                <li class="nav-item">
+	                    <a class="nav-link" href="#categories-section">Categories</a>
+	                </li>
+	                <li class="nav-item">
+	                    <a class="nav-link" href="#about">About</a>
+	                </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+	            </ul>
+	        </div>
+	    </div>
+	</nav>
+
+	<!-- Home Section -->
+
+  <section id="home" class="bg-dark text-white text-center d-flex align-items-center justify-content-center">
+      <div class="container">
+          <h1>Welcome to Educ Portal</h1>
+          <p>Your go-to source for educational resources</p>
+          <a href="#categories-section" class="btn btn-light btn-lg">Explore Now</a>
+      </div>
+  </section>
+
+
+	<!-- Introduction -->
+
+	<section id="introduction" class="py-5">
+	    <div class="container">
+	        <h2 class="py-5">Introduction</h2>
+	        <p>Educ Portal is a comprehensive online platform dedicated to empowering students, educators, and lifelong learners by providing access to a wide range of resources across various fields of study. Whether you are a student looking to supplement your classroom learning, a teacher searching for quality educational materials to enhance your curriculum, or a curious individual eager to expand your knowledge, Educ Portal offers a centralized space for diverse educational resources. Our platform features resources across subjects such as science, mathematics, history, arts, technology, and more, all designed to cater to learners of different levels and interests.</p>
+          <p>At Educ Portal, we understand that education is the key to personal and societal growth. That’s why we are committed to making learning accessible to everyone, regardless of geographic location or financial standing. With a vast library of resources, including videos, articles, interactive modules, and downloadable content, Educ Portal aims to support both formal and informal education in the most effective way possible. We believe that with the right tools and resources, every learner can achieve their full potential.</p>
+	    </div>
+	</section>
+
+
+<!-- Featured Section -->
+
+<section id="featured" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="py-5">Featured Resources</h2>
+        <p>Check out our top resources curated by experts in the field.</p>
+
+        <!-- Carousel for Featured Resources -->
+        <div id="featuredCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Science</h5>
+                                    <p class="card-text">Explore a variety of scientific resources and study materials.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mathematics</h5>
+                                    <p class="card-text">Find resources to help you excel in mathematics.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Literature</h5>
+                                    <p class="card-text">Delve into our collection of literary works and analysis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">History</h5>
+                                    <p class="card-text">Discover resources that dive into historical events and figures.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Technology</h5>
+                                    <p class="card-text">Stay updated with the latest tech advancements and coding tutorials.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Arts & Design</h5>
+                                    <p class="card-text">Learn about various art forms and enhance your design skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Business & Finance</h5>
+                                    <p class="card-text">Access materials on business strategies, finance, and entrepreneurship.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Languages</h5>
+                                    <p class="card-text">Improve your language skills with comprehensive resources on different languages.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Social Sciences</h5>
+                                    <p class="card-text">Study resources covering psychology, sociology, and other social sciences.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#featuredCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#featuredCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+</section>
+
+
+	<!-- Categories Section -->
+
+	<section id="categories-section" class="py-5">
+	    <div class="container">
+	        <h2 class="py-5">Categories</h2>
+	        <div id="categories" class="row">
+
+	            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+	                <div class="card">
+	                    <div class="card-body">
+	                        <h5 class="card-title">Science</h5>
+	                        <p class="card-text">Explore a variety of scientific resources and study materials.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+	                <div class="card">
+	                    <div class="card-body">
+	                        <h5 class="card-title">Mathematics</h5>
+	                        <p class="card-text">Find resources to help you excel in mathematics.</p>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+	                <div class="card">
+	                    <div class="card-body">
+	                        <h5 class="card-title">Literature</h5>
+	                        <p class="card-text">Delve into our collection of literary works and analysis.</p>
+	                    </div>
+	                </div>
+	            </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title">History</h5>
+                          <p class="card-text">Discover resources that dive into historical events and figures.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title">Technology</h5>
+                          <p class="card-text">Stay updated with the latest tech advancements and coding tutorials.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title">Arts & Design</h5>
+                          <p class="card-text">Learn about various art forms and enhance your design skills.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title">Business & Finance</h5>
+                          <p class="card-text">Access materials on business strategies, finance, and entrepreneurship.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title">Languages</h5>
+                          <p class="card-text">Improve your language skills with comprehensive resources on different languages.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title">Social Sciences</h5>
+                          <p class="card-text">Study resources covering psychology, sociology, and other social sciences.</p>
+                      </div>
+                  </div>
+              </div>
+	        </div>
+
+<!-- sample resources -->
+
+	        <div id="resources" class="py-5">
+	            <h3 class="py-5">Sample Resources</h3>
+	            <p>Here are some samples of the materials available on our platform:</p>
+	            <ul>
+	                <li><a href="https://www2.tntech.edu/leap/murdock/books.html" target="_blank">Physics Study Guide</a></li>
+	                <li><a href="https://www.rrcs.org/Downloads/Calc%20Workbook.pdf" target="_blank">Calculus Workbook</a></li>
+	                <li><a href="https://shakespeare.mit.edu/" target="_blank">Shakespeare’s Complete Works</a></li>
+	            </ul>
+	        </div>
+	    </div>
+	</section>
+
+	<!-- About Section -->
+
+	<section id="about" class="py-5 bg-light">
+	    <div class="container">
+	        <h2 class="py-5">About Us</h2>
+	        <div id="mission">
+	            <h3>Our Mission</h3>
+	            <p>At Educ Portal, our mission is to provide free, high-quality educational resources to learners worldwide. We are driven by the belief that education is a fundamental human right, and it should not be limited by geographical, economic, or societal barriers. Our goal is to create an inclusive learning environment that empowers individuals from all walks of life to pursue their educational goals at their own pace and in their own way.</p>
+              <p>Through our platform, we strive to bridge the gap between those who have access to quality education and those who do not. By collaborating with educators, professionals, and institutions across the globe, we continuously curate and provide a vast array of content that is not only informative but also engaging and up-to-date with the latest developments in each field. Our vision is to be the go-to platform for learners who seek to broaden their knowledge and skills, offering resources that promote lifelong learning, personal growth, and professional development.</p>
+	        </div>
+	    </div>
+	</section>
+
+      <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center py-5">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Email</h4>
+                    <p>contact@educportal.com</p>
+                    <h4>Phone</h4>
+                    <p>0912-345-6789<p>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<!-- Footer -->
+
+	<footer class="bg-dark text-white text-center py-3">
+	    <div class="container">
+	        <p>&copy; 2024 Educ Portal. For educational purposes only. No copyright infringement intended. All rights reserved.</p>
+	    </div>
+	</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
